@@ -50,6 +50,8 @@ public class RoadTripLog {
 	}
 
 	public double getMPG() {
+		
+		MPG = Distance / Fuel;
 		// return
 		return MPG;
 	}
